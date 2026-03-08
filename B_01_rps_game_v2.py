@@ -3,7 +3,7 @@ import random
 # Check that users have entered a valid
 # option based on a list
 def string_checker(question, valid_ans=("yes", "no")):
-
+    """Checks for valid answers yes/no or r/p/s, otherwise returns an error asking for the correct response."""
     error = f"please enter a valid option from the following list: {valid_ans}"
 
     while True:
